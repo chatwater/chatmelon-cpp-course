@@ -1,9 +1,6 @@
 {
     "code-runner.executorMap": {
-        // windows系统用这行配置
-        "cpp": "cls && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExtension && ../build/$fileNameWithoutExtension"
-        // mac系统用这行配置
-        // "cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExtension && ../build/$fileNameWithoutExtension"
+        "cpp": "cls || clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExtension && ../build/$fileNameWithoutExtension"
     },
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true, 

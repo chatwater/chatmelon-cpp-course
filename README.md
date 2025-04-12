@@ -14,9 +14,9 @@ chatmelon是来自中国四川的中学生，这是她的编程课，一起来�
 1. 克隆仓库到本地
 2. 使用VS Code打开仓库
 3. 安装VS Code插件
-- C/C++插件(必须)
-- Code Runner插件(建议，安装后可以更方便地运行代码)
-  - .vscode\settings.json有Code Runner插件的配置，默认是Windows系统的配置，如果您是Mac系统，需注释掉Windows那一行(第4行)配置，打开Mac那一行(第6行)配置
-- GitHub Copilot插件(可选，可以提供代码补全和代码建议)
+- C/C++ 插件(必须)
+- Code Runner 插件(建议，安装后可以更方便地运行代码，仓库代码在.vscode\settings.json有相关配置)
+- GitHub Copilot 插件(可选，可以提供代码补全和代码建议)
+- GitHub Copilot Chat 插件(可选，可以提供代码补全和代码建议)
 4. 编写代码
 5. 运行代码
