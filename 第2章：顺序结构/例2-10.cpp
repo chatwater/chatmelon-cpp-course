@@ -7,7 +7,7 @@ int main() {
     scanf("%d%d%d%d", &a, &b, &c, &d);
     delta = (c * 60 + d) - (a * 60 + b);
     e = delta / 60;
-    f = delta % 60;
+    f = delta % 60; //模运算
     printf("%d %d", e, f);
     return 0;
 }
