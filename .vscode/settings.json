@@ -1,6 +1,9 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cls || clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExtension && ../build/$fileNameWithoutExtension"
+        //windows
+         "cpp": "cls && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.exe && ../build/$fileNameWithoutExt.exe"
+        //mac
+        //"cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.out && ../build/$fileNameWithoutExt.out"
     },
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true, 
@@ -11,19 +14,9 @@
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "files.associations": {
         "iostream": "cpp",
-        "__bit_reference": "cpp",
-        "__hash_table": "cpp",
-        "__locale": "cpp",
-        "__node_handle": "cpp",
-        "__split_buffer": "cpp",
-        "__verbose_abort": "cpp",
-        "array": "cpp",
-        "bitset": "cpp",
-        "cctype": "cpp",
-        "clocale": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
         "cmath": "cpp",
-        "cstdarg": "cpp",
-        "cstdint": "cpp",
         "cstdio": "cpp",
         "cstdlib": "cpp",
         "cstring": "cpp",
@@ -43,16 +36,40 @@
         "optional": "cpp",
         "print": "cpp",
         "queue": "cpp",
+        "complex": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__locale": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "__verbose_abort": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstdarg": "cpp",
+        "cstdint": "cpp",
+        "memory": "cpp",
         "ratio": "cpp",
+        "sstream": "cpp",
         "stack": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "string": "cpp",
         "string_view": "cpp",
         "typeinfo": "cpp",
         "unordered_map": "cpp",
         "variant": "cpp",
-        "vector": "cpp",
-        "complex": "cpp"
+        "algorithm": "cpp"
     },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": ["-NoExit", "/c", "chcp 65001"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.env.windows": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1"
+    }
 }

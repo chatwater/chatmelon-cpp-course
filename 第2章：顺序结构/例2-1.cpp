@@ -24,8 +24,10 @@ long long 长长整型
 unsigned long long 无符号长长整型
 
 char 字符型 P17那些字符，char可以存一个字符，也可以存一个整数（-128到127之间的整数）
-float 单精度浮点型 2.3、5.6
-double 双精度浮点型 2.30、5.66
+float 单精度浮点型 有效数字大约是 6~7 位的小数
+double 双精度浮点型 有效数字大约是 15~16 位的小数
+bool 布尔型 只有两个值：true 和 false
+string 字符串型 可以存储一个字符串，字符串是由字符组成的序列
 例子：
 float weight = 60.0; //体重，没有单位
 double height = 1.75; //身高，没有单位
