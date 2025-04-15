@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cmath>
 using namespace std;
-// 距离函数：计算2维平面上3个点的周长
+// 【题目】距离函数：输入2维平面上3个点的坐标，计算周长
 // 方法1:常规计算法
 int main() {
     double x1, y1, x2, y2, x3, y3, ans;
