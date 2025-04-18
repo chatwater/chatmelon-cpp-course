@@ -9,6 +9,7 @@ struct student {
     int id;
     int academic, quality;
     double overall;
+    //带参数构造函数
     student(int _id, int _ac, int _qu){
         //这里的this->也可以省略
         this->id = _id;
@@ -16,7 +17,8 @@ struct student {
         this->quality = _qu;
         this->overall = 0.7 * _ac + 0.3 * _qu;
     }
-    student(){}; //默认构造函数
+    //默认构造函数
+    student(){}; 
     int sum(){
         //返回值也可写为 this->academic + this->quality
         return academic + quality; //返回总分
