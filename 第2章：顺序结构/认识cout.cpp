@@ -10,7 +10,7 @@ int main() {
     return 0;
 }
 
-/**
+/** 
  * cout 是一个输出流对象，属于 ostream 类的实例
  * cout 的地址是一个指针，指向 cout 对象在内存中的位置
  * cout 的类型是 ostream，表示它是一个输出流对象

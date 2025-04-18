@@ -6,7 +6,7 @@ int main() {
     double a = 1, b = -100, c = 2400;
     double delta, ans;
     delta = pow(b, 2) - 4 * a * c;
-    ans = (-b + sqrt(delta)) / (2 * a); //函数sqrt()用于求平方根
+    ans = (-b + sqrt(delta)) / (2 * a); //函数sqrt()用于求平方根 sqrt(delta)相当于pow(delta, 0.5)
     cout << 110 - int(ans + 0.5) << endl; 
     return 0;
 }

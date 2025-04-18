@@ -6,7 +6,7 @@ int main() {
     double delta, ans; 
     delta = v_yao - v_a; 
     ans = distance / delta; 
-    cout << ans << endl;
+    cout << ans << endl << &ans << endl; // &ans的值是ans存在计算机上的地址
     return 0;
 }
 /*
@@ -24,12 +24,12 @@ long long 长长整型
 unsigned long long 无符号长长整型
 
 char 字符型 P17那些字符，char可以存一个字符，也可以存一个整数（-128到127之间的整数）
-float 单精度浮点型 有效数字大约是 6~7 位的小数
-double 双精度浮点型 有效数字大约是 15~16 位的小数
+float 单精度浮点型 有效数字大约是 6~7 位的小数  形如3.123456, 3123.456
+double 双精度浮点型 有效数字大约是 15~16 位的小数  形如3.123456789012345, 3123.456789012345
 bool 布尔型 只有两个值：true 和 false
 string 字符串型 可以存储一个字符串，字符串是由字符组成的序列
 例子：
-float weight = 60.0; //体重，没有单位
+float weight = 60.00; //体重，没有单位
 double height = 1.75; //身高，没有单位
 
 unsigned int xm_score //变量的声明

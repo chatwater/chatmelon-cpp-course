@@ -16,7 +16,8 @@ int main() {
             cout << "Teinei teinei teinei~" << endl;
             break;
         //条件相同的语句可以合并在一起
-        case 'B': case 'Q':
+        case 'B': 
+        case 'Q':
             cout << "Bye bye!" << endl;
             break;
         default:

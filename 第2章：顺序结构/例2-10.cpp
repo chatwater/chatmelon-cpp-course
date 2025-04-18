@@ -8,6 +8,6 @@ int main() {
     delta = (c * 60 + d) - (a * 60 + b);
     e = delta / 60;
     f = delta % 60; //模运算
-    printf("%d %d", e, f);
+    printf("%d %d\n", e, f);
     return 0;
 }
