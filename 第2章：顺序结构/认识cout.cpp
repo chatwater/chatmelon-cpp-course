@@ -1,12 +1,12 @@
 #include <iostream>
 #include <typeinfo>
-using namespace std;
+// using namespace std;
 //扩展阅读。认识cout：cout 是一个输出流对象。cin的性质同cout
 int main() {
     // 输出 cout 的地址: cout前面加上&符号，表示取cout的地址
-    cout << "cout的地址： " << &cout << endl;
+    std::cout << "cout的地址： " << &std::cout << std::endl;
     // 输出 cout 的类型
-    cout << "cout 的类型： " << typeid(cout).name() << endl;
+    std::cout << "cout 的类型： " << typeid(std::cout).name() << std::endl;
     return 0;
 }
 

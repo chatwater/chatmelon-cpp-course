@@ -17,13 +17,13 @@
             "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/msys64/mingw64/include/c++/v1"
+                "D:/C/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++"
             ],
             "defines": [],
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64",
-            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe"
+            "compilerPath": "D:/C/mingw64/bin/gcc.exe"
         }
     ],
     "version": 4
