@@ -15,3 +15,19 @@ int main() {
     cout << total << endl;
     return 0;
 }
+
+
+/**
+
+if(人 == "男"){
+    return 1
+}else{
+    return 0
+} 
+
+等价于：
+
+int a;
+a = 人 == "男" ? 1 : 0
+
+ */
