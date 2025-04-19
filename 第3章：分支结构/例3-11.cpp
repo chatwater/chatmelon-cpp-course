@@ -18,16 +18,20 @@ int main() {
 
 
 /**
-
+int a;
 if(人 == "男"){
-    return 1
+    a = 1;
 }else{
-    return 0
+    a = 0;
 } 
 
 等价于：
 
 int a;
 a = 人 == "男" ? 1 : 0
+
+bool b;
+b = 人 == "男"
+
 
  */

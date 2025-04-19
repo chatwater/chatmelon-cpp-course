@@ -27,6 +27,7 @@ int main() {
             } else {
                 cout << 28 << endl;
             }
+            break;
         default:
             // cout << "error" << endl;
             break;

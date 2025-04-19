@@ -19,7 +19,8 @@ int main() {
     double V, l;
     V = 4.0 / 3 * PI * (pow(r1, 3) + pow(r2, 3)); //计算体积
     l = pow(V, 1.0 / 3); //计算边长
-    cout << (int)l << endl; //输出边长。(int)l 是强制类型转换，将double类型转换为int类型
+    // cout << (int)l << endl; //输出边长。(int)l 是强制类型转换，将double类型转换为int类型
+    cout << int(l) << endl; //输出边长。int(l) 是强制类型转换，将double类型转换为int类型
     return 0;
 }
 

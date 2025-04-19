@@ -6,7 +6,7 @@ int main() {
     cin >> m >> h;
     BMI = m / (h * h); // 计算BMI
 
-    // 将 BMI 分类为整数值
+    // 将 BMI 分类为整数值 
     int category;
     if (BMI < 18.5) {
         category = 1; // 偏瘦
@@ -20,7 +20,7 @@ int main() {
         category = 5; // 重度肥胖
     }
 
-    // 使用 switch...case 输出结果
+    // 使用 switch...case 输出结果。枚举BMI的类型1、2、3、4、5
     switch (category) {
         case 1:
             cout << "偏瘦" << endl;
