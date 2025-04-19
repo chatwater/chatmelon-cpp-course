@@ -1,9 +1,10 @@
 {
     "code-runner.executorMap": {
         //windows
-         "cpp": "cls && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.exe && ../build/$fileNameWithoutExt.exe"
+        "cpp": "cls && g++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.exe && ../build/$fileNameWithoutExt.exe"
+        // "cpp": "cls && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.exe && ../build/$fileNameWithoutExt.exe"
         //mac
-        //"cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.out && ../build/$fileNameWithoutExt.out"
+        // "cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.out && ../build/$fileNameWithoutExt.out"
     },
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true, 
