@@ -19,7 +19,7 @@ FILE_NAME_WITHOUT_EXT=$2
 # 检测操作系统类型
 if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "win32" ]] || [[ "$OSTYPE" == "cygwin" ]]; then
     # Windows系统
-    "$SCRIPT_DIR/run.bat" "$1" "$2"
+    "$SCRIPT_DIR/run.bat" "$1" "$2" "$BUILD_DIR"
 else
     # macOS或Linux系统
     "$SCRIPT_DIR/run.sh" "$1" "$2" "$BUILD_DIR"
