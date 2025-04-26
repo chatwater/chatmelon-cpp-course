@@ -1,10 +1,10 @@
 {
     "code-runner.executorMap": {
-        //"cpp": ".vscode\\platform-run.sh $fullFileName $fileNameWithoutExt"
+        //"cpp": ".vscode/platform-run.sh $fullFileName $fileNameWithoutExt"
         //如果第3行不起作用，使用以下直接命令（Windows用户）
         "cpp": "cls && g++ -std=c++17 $fullFileName -o build\\$fileNameWithoutExt.exe && build\\$fileNameWithoutExt.exe"
         //如果第3行不起作用，使用以下直接命令（Mac用户）
-        //"cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fileName -o ../build/$fileNameWithoutExt.out && ../build/$fileNameWithoutExt.out"
+        //"cpp": "clear && mkdir -p ../build && clang++ -std=c++17 $fullFileName -o ../build/$fileNameWithoutExt.out && ../build/$fileNameWithoutExt.out"
     },
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": false,
