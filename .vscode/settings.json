@@ -81,7 +81,5 @@
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUTF8": "1"
     },
-    //"terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     //"code-runner.terminalRoot": "${workspaceFolder}"
 }
